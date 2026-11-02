@@ -1,0 +1,40 @@
+﻿field_name,description,category
+Year,Calendar year of the flight,Time
+Month,Calendar month of the flight,Time
+DayofMonth,Day of month,Time
+DayOfWeek,Day of week coded by BTS,Time
+FlightDate,Scheduled flight date,Time
+Marketing_Airline_Network,Marketing carrier network code,Airline
+Operating_Airline,Airline operating the flight,Airline
+Tail_Number,Aircraft tail number,Aircraft
+Flight_Number_Operating_Airline,Operating carrier flight number,Flight
+Origin,Origin airport IATA code,Network
+OriginCityName,Origin city name,Network
+OriginState,Origin state code,Network
+Dest,Destination airport IATA code,Network
+DestCityName,Destination city name,Network
+DestState,Destination state code,Network
+Distance,Flight distance in miles,Route
+CRSDepTime,Scheduled departure time,Schedule
+CRSArrTime,Scheduled arrival time,Schedule
+CRSElapsedTime,Scheduled elapsed flight time in minutes,Schedule
+DepTime,Actual departure time,Operations
+DepDelayMinutes,"Departure delay in minutes, non-negative",Operations
+DepDel15,Indicator for departure delay of at least 15 minutes,Operations
+TaxiOut,Taxi-out time in minutes,Operations
+WheelsOff,Time aircraft became airborne,Operations
+WheelsOn,Time aircraft landed,Operations
+TaxiIn,Taxi-in time in minutes,Operations
+ArrTime,Actual arrival time,Operations
+ArrDelayMinutes,"Arrival delay in minutes, non-negative",Operations
+ArrDel15,Indicator for arrival delay of at least 15 minutes,Target
+ActualElapsedTime,Actual elapsed flight time in minutes,Operations
+AirTime,Time spent airborne in minutes,Operations
+Cancelled,Indicator showing whether the flight was cancelled,Irregular Operations
+CancellationCode,BTS cancellation reason code,Irregular Operations
+Diverted,Indicator showing whether the flight was diverted,Irregular Operations
+CarrierDelay,Delay minutes attributed to the air carrier,Delay Cause
+WeatherDelay,Delay minutes attributed to weather,Delay Cause
+NASDelay,Delay minutes attributed to the National Aviation System,Delay Cause
+SecurityDelay,Delay minutes attributed to security,Delay Cause
+LateAircraftDelay,Delay minutes attributed to late-arriving aircraft,Delay Cause

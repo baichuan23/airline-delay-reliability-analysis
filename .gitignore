@@ -1,0 +1,24 @@
+# Raw data
+data/raw/
+
+# Large processed datasets
+data/processed/
+data/powerbi/flight_dashboard.parquet
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Power BI temporary files
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
